@@ -1,0 +1,25 @@
+html, body, .centered-text {
+  height: 100%;
+}
+
+hr {
+  width: 100%;
+  display: none;
+}
+
+.centered-text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.centered-text, button {
+  font-size: 80pt;
+  font-family: monospace;
+}
+
+#next {
+  padding: 1ex;
+}
