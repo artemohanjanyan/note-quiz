@@ -12,7 +12,6 @@ hr {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
 .centered-text, button {
@@ -21,5 +20,10 @@ hr {
 }
 
 #next {
-  padding: 1ex;
+  padding: 0.5ex;
+  margin: 0.5ex;
+}
+
+.task {
+  background-color: bisque;
 }
